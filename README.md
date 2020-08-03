@@ -3,6 +3,7 @@
 Reads the directorie and file names in the training and testing directories and builds a json file, the directory names as the labels.
 
 ## Dataset directory structure
+```
 > datasets
   > dataset_dir_name
     > testing
@@ -11,6 +12,7 @@ Reads the directorie and file names in the training and testing directories and 
     > training
       > label-1
       > label-n
+```
 
 
 # JSON structure
