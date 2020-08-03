@@ -1,8 +1,8 @@
-# dataset-manifest-tool
+# Dataset JSON Manifest Tool
 
 Reads the directorie and file names in the training and testing directories and builds a json file, the directory names as the labels.
 
-## Dataset directory structure
+## Dataset Directory Structure
 ```
 > datasets
   > dataset_dir_name
@@ -15,7 +15,7 @@ Reads the directorie and file names in the training and testing directories and 
 ```
 
 
-# JSON structure
+## JSON Structure
 ```
 {
   "labels": [ "label-1", "label-n" ],
@@ -31,7 +31,7 @@ Reads the directorie and file names in the training and testing directories and 
 }
 ```
 
-## Create a the json manifest
+## Create JSON Manifest
 ```
 node app.js --dataset_dir="datasets/dataset_dir_name" --manifest_filename="output/dataset_dir_name.json"
 ```
