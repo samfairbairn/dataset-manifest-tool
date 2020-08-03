@@ -1,0 +1,27 @@
+{
+    "name": "dataset-manifest-tool",
+    "version": "1.0.0",
+    "description": "Build a manifest json file for a dataset for in browser training",
+    "main": "app.js",
+    "scripts": {},
+    "author": "Sam Fairbairn",
+    "license": "ISC",
+    "dependencies": {
+        "fast-glob": "^3.2.4",
+        "fs-extra": "^7.0.0",
+        "minimist": "^1.2.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/samfairbairn/dataset-manifest-tool.git"
+    },
+    "keywords": [
+        "tensorflow",
+        "tensorflow.js",
+        "tfjs",
+        "transfer learning",
+        "image classification",
+        "image retraining",
+        "node.js"
+    ]
+}
