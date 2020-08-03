@@ -20,13 +20,13 @@ Reads the directorie and file names in the training and testing directories and 
 {
   "labels": [ "label-1", "label-n" ],
   "training": [
-    { "image":"dataset_dir_name/training/label-1/image-1.png", "label":0 },
-    { "image":"dataset_dir_name/training/label-n/image-n.png", "label":1 },
+    { "image":"dataset_dir_name/training/label-1/image-1.png", "label": 0 },
+    { "image":"dataset_dir_name/training/label-n/image-n.png", "label": 1 },
     ...
     ],
   "testing": [
-    { "image":"dataset_dir_name/testing/label-1/image-1.png", "label":0 },
-    { "image":"dataset_dir_name/testing/label-n/image-n.png", "label":1 },
+    { "image":"dataset_dir_name/testing/label-1/image-1.png", "label": 0 },
+    { "image":"dataset_dir_name/testing/label-n/image-n.png", "label": 1 },
   ]
 }
 ```
